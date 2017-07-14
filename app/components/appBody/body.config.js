@@ -12,4 +12,8 @@ export default function appConfig($stateProvider){
         url: '/mul',
         component: 'mulComponent'
     })
+    .state('div',{
+        url: '/div',
+        component: 'divComponent'
+    })
 }

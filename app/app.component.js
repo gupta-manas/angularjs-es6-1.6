@@ -1,10 +1,9 @@
 import appTemplate from './app.html';
+import appCtrl from './app.controller';
 
-export default AppComponent{
+export default {
     template: appTemplate,
-    controllerAs: 'appCtrl',
-    controller:
-    class appCtrl{
-        
-    }
+    bindings: {},
+    controller: appCtrl,
+    controllerAs: 'appCtrl'
 }
